@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* left and right image and text */
+.partof2div
+{   
+    --margin:0px;
+    --items-direction: row;
+    --padding: 0px;
+    display: flex;
+    column-gap: var(--margin);
+    flex-direction: var(--items-direction);
+    margin: auto;
+    position: relative;
+    width: calc(100% - var(--padding)* 2);
+}
+.phtoAndTextSection {
+    background-color: #4b4b4b;
+}
+#lefscript
+{
+    font-size: 50px;
+    /* padding: 50px; */
+    color: white;
+    padding-top: 100px;
+    padding-left: 90px;
+}
+.leftside
+{
+    width: 100%;
+    height: 100%;
+       
+}
+.rightside
+{
+    width: 100%;
+    height: auto;
+    left: 0;
+    position: relative;
+    display: grid;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#upimgright
+{
+    position: relative;
+    /* margin: 43px 0px 47px calc(100% - 489px)* 1; */
+    margin-top: 43px;
+    margin-right: 0px;
+    margin-bottom: 47px;
+    margin-left: calc(100% - 489px);
+    /* left: 100px; */
+    /* width: 266px;  */
+    /* height: 426px;  */
+    object-fit: cover;   
+    width: 370px;
+}
+#topleftscriptniche
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: ; */
+    word-spacing: 1px;
+    font-size: 18px;
+}
+.scriptninicheDiv
+{
+    padding-top: 40px;
+    padding-left: 90px;
+}
+.leftscriptNicheBTNdivPart
+{
+    display: flex;
+}
+.btn2sathe
+{
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* font-family: 'Lucida Console'; */
+    font-weight: bold;
+}
+#our-serBtn
+{
+    background-color: chocolate;
+    color: white;
+    
+}
+#tool-kBtn
+{
+    background-color: rgb(161, 160, 160);
+    color: white;
+    margin-left: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+/* section one is over  */
+/* -------------------------------------- */
+/* section two styles  */
+.welcodiv {
+    background-color: #4b4b4b;
+    padding-bottom: 250px;
+}
+.wel2div {
+    background-image: url('backgroundtxt.png') ;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    padding-bottom: 50px;
+    /* border: 2px solid #007BFF; */
+    margin: -190px 140px 0 ;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.wel3div {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.wel2div h1 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+.wel2div div {
+    text-align: left;
+    margin: 20px 170px 0;
+}
+.wel2div div p {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;   
+    font-size: 16px;
+}
+.wel2div button {
+    margin: 20px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 3px solid #4b4b4b;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.wel2div button:hover {
+    border: 3px solid #d2691e;
+    color: #d2691e;
+}
+/* section two is over */
+/* ---------------------------------- */
+/* section three style  */
+/* .toolksection {
+    margin-bottom: 500px;
+} */
+.toolkdiv {
+    margin-left: 140px;
+}
+.maindiv {
+    --margin:0px;
+    --items-direction: row;
+    --padding: 0px;
+    display: flex;
+    column-gap: var(--margin);
+    flex-direction: var(--items-direction);
+    margin: auto;
+    position: relative;
+    width: calc(100% - var(--padding)* 2);
+    margin-top: 30px;
+}
+.rightdiv img {
+    /* position: relative;
+    margin-left: calc(100% - 489px);
+    object-fit: cover; */
+    width: 450px;
+    height: 500px;
+}
+.leftdiv {
+    height: auto;
+    width: 100%;
+    position: relative;
+    /* display: grid; */
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+.rightdiv {
+    width: 100%;
+    height: auto;
+    /* left: 0; */
+    position: relative;
+    display: grid;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+.rightdiv div {
+    padding: 20px 110px;
+}
+.leftdiv h1 {
+    font-size: 45px;
+    margin-left: 140px;
+}
+/* line and poits style */
+.lineandpoitDiv #poitsid {
+    padding: 8px;
+    background-color: #4b4b4b;
+    width: 10px;
+    border-radius: 8px;
+    margin-left: -18px;
+}
+.lineandpoitDiv #linesid {
+    /* margin: 5px; */
+    padding: 2px;
+    /* background: linear-gradient(#fff 0%, red 10%, blue 20%, orange 30%, chocolate 40%, #39b300 50%, #ff00aa 75%,#b0b300 100%); */
+    height: 90px;
+    width: 2px;
+    margin-left: 56px;
+}
+.lineandpoitDiv .line3div {
+    height: 60px;
+}
+.animdiv {
+    display: flex;
+    margin-top: 30px;
+}
+.detaildiv h2 {
+    color: #d2691e;
+}
+.detaildiv h3 {
+    margin-bottom: 30px;
+}
+/* the three section is over */
+/* ------------- */
+/* section four start style  */
+.textdivr h4 {
+    color: #d2691e;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.textdivr h1 {
+    font-size: 45px;
+    margin-left: 60px;
+}
+#txtspa{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 17px;
+    word-spacing: 2px;
+}
+.textdivr button {
+    margin: 20px 200px ;
+    padding: 10px;
+    width: 150px;
+    background: transparent;
+    border: 3px solid #4b4b4b;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.textdivr button:hover {
+    border: 3px solid #d2691e;
+    /* color: #d2691e; */
+}
+/* the section four is over  */
+/* ---------------------------------------- */
+/* start section 5 five style  */
+.partof3section5 div {
+    margin-top: 30px ;
+    text-align: center;
+}
+.partof3section5 h4 {
+    color: #d2691e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.partof3section5 h1 {
+    font-size: 40px;
+}
+.part3div {
+    --margin:0px;
+    --items-direction: row;
+    --padding: 0px;
+    display: flex;
+    column-gap: var(--margin);
+    flex-direction: var(--items-direction);
+    margin: auto;
+    position: relative;
+    width: calc(100% - var(--padding)* 3);
+    margin-top: 30px;
+}
+.part3div img {
+    width: 300px;
+    border-radius: 10px;
+}
+.part3div div {
+    width: 100%;
+    height: 100%;
+    /* left: 0; */
+    position: relative;
+    display: grid;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    margin: 0 75px;
+}
+/* section five 5 over */
+/* ------------------------------------------ */
+/* start the section six 6 style */
+.reviewdiv {
+    --margin:0px;
+    --items-direction: row;
+    --padding: 0px;
+    display: flex;
+    column-gap: var(--margin);
+    flex-direction: var(--items-direction);
+    margin: auto;
+    position: relative;
+    width: calc(100% - var(--padding)* 3);
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.reviewdiv div {
+    width: 100%;
+    height: 100%;
+    /* left: 0; */
+    position: relative;
+    display: grid;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    /* margin: 0 75px; */
+}
+#rightdownimg {
+    width: 400px;
+    margin: 50px 0 0 30px;
+    border-radius: 20px;
+}
+#vachenboxdiv {
+    border: 4px solid #a1a1a1;
+}
+#andrnimage {
+    width: 150px;
+    margin: 30px 0 30px 30px;
+    
+}
+#jamninabeimag img {
+    margin: 390px 0 0 30px;
+    width: 125px;
+}
+/* this section is close */
+/* ------------------------------------ */
+/* start the section 7 style  */
+.section7 {
+    background-color: #4b4b4b;
+    /* padding-bottom: 300px; */
+}
+.txtdiv {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.bo4fir {
+    --margin:0px;
+    --items-direction: row;
+    --padding: 0px;
+    display: flex;
+    column-gap: var(--margin);
+    flex-direction: var(--items-direction);
+    margin: auto;
+    position: relative;
+    width: calc(100% - var(--padding)* 4);
+    /* margin-top: 30px; */
+}
+.bo4fir div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    margin: 0 40px;
+    color: #fff;
+}
+.bo4sec {
+    margin-top: 30px;
+}
+/* this section 7 is close */
+/* ------------------------------------ */
+/* start the section 8 style  */
+.section8 {
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.girldiv {
+    text-align: center;
+}
+.blackdivforgrl {
+    background-color: #4b4b4b;
+    padding: 0 0 200px 0;
+}
+#girlimgid {
+    border-radius: 10px;
+    width: 500px;
+    margin: -160px 0 0 0;
+}
+.sec8div {
+    text-align: center;
+    margin-top: 50px;
+}
+.buttdiv {
+    margin-top: 30px;
+    text-align: center;
+}
+.buttdiv input {
+    width: 190px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding-left: 5px;
+    margin: 0 40px 0;
+}
+.buttdiv button {
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;  
+    margin: 0 40px 0;
+    border: none;
+    background-color: #d2691e;
+    color: #fff;
+    font-weight: bold; 
+    font-size: 15px;
+}
+.buttdiv button:hover {
+    color: #d2691e;
+    border: 2px solid #d2691e;
+    background-color: #fff;
+}
+/* this section 8 is close */
+/* ------------------------------------ */
+/* start the section 9 style  */
+.section9 {
+    background-color: #4b4b4b;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.sect9div {
+    display: flex;
+    justify-content: space-around;
+}
+#h3che {
+    margin: 30px 0;
+}
+#tex {
+    margin: 10px 0;
+}
+/* -------scroll megic css------- */
+.wel2div {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+         -moz-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+             -o-transform: scale(0.9);
+                    transform: scale(0.9);
+    -webkit-transition: all 1s ease-in-out;
+         -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+             -o-transition: all 1s ease-in-out;
+                    transition: all 1s ease-in-out;
+}
+.wel2div.visible {
+    opacity: 1;
+    -webkit-transform: none;
+         -moz-transform: none;
+            -ms-transform: none;
+             -o-transform: none;
+                    transform: none;
+}

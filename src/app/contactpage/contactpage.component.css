@@ -1,0 +1,103 @@
+section
+{
+    /* background-color: #4b4b4b; */
+    color: #fff;
+    /* text-align: center; */
+}
+.firSection
+{
+    background-color: #4b4b4b;
+    display: grid;
+    justify-content: center;
+    /* min-height: 100vh; */
+}
+.firSecDiv
+{
+    background-color: #4b4b4b;
+    padding-bottom: 30px;
+}
+.firSecDiv h3
+{
+    margin-top: 10px;
+}
+.firSecDiv h3 a 
+{
+    color: #fff;
+    margin-left: 5px;
+    text-decoration: none;
+}
+#numLink:hover {
+    text-decoration: underline;
+}
+.h1hedar 
+{   
+    font-size: 50px;
+    padding-top: 40px;
+}
+p
+{
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondSection
+{
+    display: grid;
+    justify-content: center;
+    /* background-color: #fff; */
+}
+ .useInDiv
+ {
+    background-color: #4b4b4b;
+    padding: 0 270px 0 ;
+    margin-top: 10px;
+    padding-bottom: 50px;
+ }
+ .useInDiv div
+ {
+    margin-top: 20px;
+    margin-left: -240px;
+ }
+.useInDiv div input
+{
+    padding: 15px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    box-shadow: none;
+    color: #fff;
+    /* margin-right: 40px; */
+    padding-right: 230px;
+}
+::placeholder
+{
+    color: #adadad;
+}
+.useInDiv div #aditaInput
+{
+    /* padding-right: 300px; */
+    padding: 15px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    box-shadow: none;
+    color: #fff;
+}
+ .useInDiv #sendDiv
+ {
+    margin-top: 30px;
+ }
+ #sendDiv button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #fff;
+ }
+ #btnSend:hover {
+    border: 2px solid chocolate !important; 
+    color: chocolate !important;
+}

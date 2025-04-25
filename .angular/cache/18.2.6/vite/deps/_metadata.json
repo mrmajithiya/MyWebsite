@@ -1,0 +1,52 @@
+{
+  "hash": "b73f0053",
+  "configHash": "ab79eef9",
+  "lockfileHash": "3fccf0a8",
+  "browserHash": "05b2c2b2",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "693bd31b",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "27ba94fb",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "a0a19a67",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "80642b5b",
+      "needsInterop": false
+    },
+    "scrollmagic": {
+      "src": "../../../../../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js",
+      "file": "scrollmagic.js",
+      "fileHash": "f65d4e49",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-C5D5J5GW": {
+      "file": "chunk-C5D5J5GW.js"
+    },
+    "chunk-75T3B3VA": {
+      "file": "chunk-75T3B3VA.js"
+    },
+    "chunk-LDWLBW3Q": {
+      "file": "chunk-LDWLBW3Q.js"
+    },
+    "chunk-3OV72XIM": {
+      "file": "chunk-3OV72XIM.js"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+/* Header styling */
+.header {
+    background-color: #333; /* Dark background for header */
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the header stays above other elements */
+    /* You can keep box-shadow to give the sticky effect a visible boundary */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li :hover {
+    color: chocolate; 
+    font-weight: bold;
+}
+.nav-links button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.nav-links button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,17 @@
+#footer {
+    background-color: #333; /* Same as header for consistency */
+    color: white;
+    text-align: center;
+    /* padding: 10px 20px; */
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+}
+p {
+    padding: 20px 0;
+    margin: 0;
+    font-size: 20px;
+}
+hr {
+    margin: 0;
+}
