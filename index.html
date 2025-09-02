@@ -220,41 +220,74 @@
 
 <body>
   <div class="header" style="
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    padding: 1rem;
-    box-shadow: var(--shadow);
-    background-color: var(--primary-color);
-    color: white;
-    position: relative;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  background-color: var(--primary-color);
+  color: white;
+  position: relative;
+  flex-wrap: nowrap;
+  width: 100%;
 ">
-  <h1 style="font-size: 1.5rem; font-weight: 600; margin: 0;">Jini AI Assistant</h1>
-  
-  <!-- Download button positioned on the right -->
+  <h1 style="
+    font-size: 1.5rem; 
+    font-weight: 600; 
+    margin: 0;
+    flex: 1;
+    text-align: center;
+  " id="header-title">
+    Jini AI Assistant
+  </h1>
+
   <a href="/Jini_AI.apk" download style="
-      position: absolute;
-      right: 1rem;
-      text-decoration: none;
-  ">
+    text-decoration: none;
+    flex-shrink: 0;
+  " id="download-link">
     <button style="
-        background-color: white; 
-        color: var(--primary-color); 
-        border: none; 
-        border-radius: 2rem; 
-        padding: 0.5rem 1rem; 
-        cursor: pointer; 
-        font-weight: 600; 
-        box-shadow: var(--shadow); 
-        transition: background-color 0.3s;
-    " 
+      background-color: white; 
+      color: var(--primary-color); 
+      border: none; 
+      border-radius: 2rem; 
+      padding: 0.5rem 1rem; 
+      cursor: pointer; 
+      font-weight: 600; 
+      box-shadow: var(--shadow); 
+      transition: background-color 0.3s;
+    "
     onmouseover="this.style.backgroundColor='#f0f0f0'" 
     onmouseout="this.style.backgroundColor='white'">
       Get Jini App
     </button>
   </a>
-</div>
 
+  <script>
+    // Simple JS for responsive behavior
+    function adjustHeader() {
+      const title = document.getElementById('header-title');
+      const link = document.getElementById('download-link');
+      if (window.innerWidth <= 768) {
+        title.style.textAlign = 'left';
+        title.style.flex = '1';
+        title.style.marginLeft = '1rem';
+        link.style.position = 'static';
+        link.style.marginRight = '1rem';
+      } else {
+        title.style.textAlign = 'center';
+        title.style.flex = '1';
+        title.style.marginLeft = '0';
+        link.style.position = 'absolute';
+        link.style.right = '1rem';
+        link.style.marginRight = '0';
+      }
+    }
+
+    // Run on load and on resize
+    window.addEventListener('load', adjustHeader);
+    window.addEventListener('resize', adjustHeader);
+  </script>
+</div>
 
   <div id="chat-container">
     <div id="chat">
