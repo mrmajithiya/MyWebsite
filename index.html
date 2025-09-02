@@ -34,7 +34,7 @@
     }
 
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Poppins', sans-serif;
       background-color: var(--light-bg);
       color: var(--text-color);
       display: flex;
@@ -61,7 +61,7 @@
       flex: 1;
       display: flex;
       flex-direction: column;
-      max-width: 800px;
+      max-width: 900px;
       width: 100%;
       margin: 0 auto;
       background-color: var(--chat-bg);
@@ -219,9 +219,42 @@
 </head>
 
 <body>
-  <div class="header">
-    <h1>Jini AI Assistant</h1>
-  </div>
+  <div class="header" style="
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+">
+  <h1 style="font-size: 1.5rem; font-weight: 600; margin: 0;">Jini AI Assistant</h1>
+  
+  <!-- Download button positioned on the right -->
+  <a href="/Jini_AI.apk" download style="
+      position: absolute;
+      right: 1rem;
+      text-decoration: none;
+  ">
+    <button style="
+        background-color: white; 
+        color: var(--primary-color); 
+        border: none; 
+        border-radius: 2rem; 
+        padding: 0.5rem 1rem; 
+        cursor: pointer; 
+        font-weight: 600; 
+        box-shadow: var(--shadow); 
+        transition: background-color 0.3s;
+    " 
+    onmouseover="this.style.backgroundColor='#f0f0f0'" 
+    onmouseout="this.style.backgroundColor='white'">
+      Get Jini App
+    </button>
+  </a>
+</div>
+
 
   <div id="chat-container">
     <div id="chat">
